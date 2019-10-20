@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Location } from '@reach/router'
 import { Link } from 'gatsby'
-import { Menu, X } from 'react-feather'
+// import { Menu, X } from 'react-feather'
 import Logo from './Logo'
-import { logout, isAuthenticated, getProfile } from "../utils/auth"
+// import { logout, isAuthenticated, getProfile } from "../utils/auth"
 
 
 import './Nav.css'
@@ -44,33 +44,33 @@ export class Navigation extends Component {
         </Link>
       )
 
-    const LoginName = () => {
-      console.log('isAuthenticated: ', isAuthenticated());      
+    // const LoginName = () => {
+    //   console.log('isAuthenticated: ', isAuthenticated());      
 
-      if(isAuthenticated()){
-        const user = getProfile()
-        return (
-                <p>Hi, {user.nickname} 
-                <a
-                href="#logout"
-                onClick={e => {
-                  logout()
-                  e.preventDefault()
-                }}
-              >
-                {' '}Log Out
-              </a></p> 
-        )
-      }else{
-        return (<NavLink to="/account/">
-                  <button>
-                        Log In
-                  </button>
-                </NavLink>
-        )
-      }
+    //   if(isAuthenticated()){
+    //     const user = getProfile()
+    //     return (
+    //             <p>Hi, {user.nickname} 
+    //             <a
+    //             href="#logout"
+    //             onClick={e => {
+    //               logout()
+    //               e.preventDefault()
+    //             }}
+    //           >
+    //             {' '}Log Out
+    //           </a></p> 
+    //     )
+    //   }else{
+    //     return (<NavLink to="/account/">
+    //               <button>
+    //                     Log In
+    //               </button>
+    //             </NavLink>
+    //     )
+    //   }
       
-    }
+    // }
 
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
@@ -115,10 +115,10 @@ export class Navigation extends Component {
                 ))}
               </div>
             </div>
-            <NavLink to="/forum/">forum</NavLink>
+            {/* <NavLink to="/forum/">forum</NavLink> */}
             <NavLink to="/contact/">Contact</NavLink>
           </div>
-          <button
+          {/* <button
             className="Button-blank Nav--MenuButton"
             onClick={this.handleMenuToggle}
           >
@@ -126,7 +126,7 @@ export class Navigation extends Component {
           </button>
           <div className="float-right">
             <LoginName />
-          </div>
+          </div> */}
         </div>
       </nav>
     )
