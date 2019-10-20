@@ -8,7 +8,7 @@ const TopicDigest = (props) => {
     return (
         <React.Fragment>
             <li className="post-list-item" key={id}>
-                <Link to={id}><img className="post-list-img" src={picture} />
+                <Link to={id}><img className="post-list-img" src={picture} alt={title}/>
                     <div className="post-list-text"><strong>{title}</strong></div>
                     <div className="post-list-text font-kokoro">ユーザー：{' '}{nickname}{' | '}{3}{' '}min{' '}read{' | '}{time}</div>
                     <div className="post-list-desc">{question}</div>

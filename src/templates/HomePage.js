@@ -115,6 +115,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            excerpt
             title
             date
             categories {
@@ -148,6 +149,7 @@ export const pageQuery = graphql`
             featuredImage
             date
             title
+            excerpt
           }
         }
       }
@@ -172,6 +174,7 @@ export const pageQuery = graphql`
             featuredImage
             date
             title
+            excerpt
           }
         }
       }

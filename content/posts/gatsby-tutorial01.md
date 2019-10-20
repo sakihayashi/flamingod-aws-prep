@@ -4,7 +4,7 @@ title: Gatsby使い方　Step1
 status: Featured / Published
 date: '2019-07-01'
 featuredImage: 'https://ucarecdn.com/50261905-a858-4e60-85f0-7258413f259c/'
-excerpt: ' Gatsby使い方　Step1ー　このページはGatsbyのインストールの仕方を紹介　NodeJS（HomeBrew）をインストールした後に、Gatsbyとそのスターターをインストールして実際にサイトを動かします'
+excerpt: 'Gatsby使い方　Step1ー　このページはGatsbyのインストールの仕方を紹介　NodeJS（HomeBrew）をインストールした後に、Gatsbyとそのスターターをインストールして実際にサイトを動かします'
 categories:
   - category: Gatsbyチュートリアル
 meta:

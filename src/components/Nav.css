@@ -68,8 +68,8 @@
   position: absolute;
   top: calc(50% - 0.2rem);
   right: 1rem;
-  border-bottom: 2px solid var(--darkGrey);
-  border-right: 2px solid var(--darkGrey);
+  border-bottom: 2px solid var(--midGrey);
+  border-right: 2px solid var(--midGrey);
   display: block;
   height: 0.8rem;
   width: 0.8rem;
@@ -87,6 +87,7 @@
   max-height: 0;
   overflow: hidden;
   transition: 0.3s ease all;
+  color: #222;
 }
 
 .Nav--Group.active .Nav--GroupLinks {

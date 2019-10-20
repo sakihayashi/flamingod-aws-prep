@@ -1,5 +1,5 @@
 ---
-template: ComponentsPage
+template: AboutPage
 slug: about
 title: アメリカ最先端の技術を学んで、勝とう
 featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
@@ -29,4 +29,5 @@ section1: >-
   * 筆者が考える価値があると思う情報を優先的に発信
     
   最新のものはより安価にITビジネスを行う為の技術でもありますので、アメリカ最先端の技術を取り入れて、あなたもライバル会社を出しぬきましょう。
+
 
