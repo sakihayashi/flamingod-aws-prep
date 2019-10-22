@@ -3,13 +3,13 @@ const postcssPresetEnv = require('postcss-preset-env')
 module.exports = {
   siteMetadata: {
     title: 'US Tech News',
-    siteUrl: 'https://eager-panini-7c38e7.netlify.com/'
+    siteUrl: 'https://angry-pasteur-516cd8.netlify.com/'
   },
   plugins: [
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "flamingod",
+        bucketName: "flamingod.com",
       },
     },
     {
@@ -193,14 +193,14 @@ module.exports = {
       }
     },
     'gatsby-plugin-sitemap',
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-        stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: false
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-netlify-cms',
+    //   options: {
+    //     modulePath: `${__dirname}/src/cms/cms.js`,
+    //     stylesPath: `${__dirname}/src/cms/admin.css`,
+    //     enableIdentityWidget: false
+    //   }
+    // },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }

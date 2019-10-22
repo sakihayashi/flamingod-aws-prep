@@ -46,12 +46,12 @@ class PostTopic extends Component {
       e.preventDefault();
       const form = e.target
 
-      console.log('this.stitch: ', this.state.stitch);
-      console.log('user: ', user);
-      console.log('isAuthenticated: ', isAuthenticated());
-      console.log('userAuth0 : ', userAuth0);
-      console.log('userAuth0.email : ', userAuth0.email);
-      console.log('userAuth0.updated_at : ', userAuth0.updated_at);
+      // console.log('this.stitch: ', this.state.stitch);
+      // console.log('user: ', user);
+      // console.log('isAuthenticated: ', isAuthenticated());
+      // console.log('userAuth0 : ', userAuth0);
+      // console.log('userAuth0.email : ', userAuth0.email);
+      // console.log('userAuth0.updated_at : ', userAuth0.updated_at);
       
       const mongodb = this.state.stitch.getServiceClient(
         RemoteMongoClient.factory,

@@ -22,7 +22,7 @@ const tokens = {
     idToken: false,
     expiresAt: false,
   }
-  console.log('auth object: ', auth);
+  // console.log('auth object: ', auth);
   
   let user = {}
 

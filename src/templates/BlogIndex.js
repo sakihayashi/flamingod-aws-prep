@@ -95,7 +95,6 @@ export const BlogIndexTemplate = ({
 
 // Export Default BlogIndex for front-end
 const BlogIndex = ({ data: { page, posts, postCategories } }) => {
-  console.log(page, posts, postCategories)
 
   return (
     <Layout

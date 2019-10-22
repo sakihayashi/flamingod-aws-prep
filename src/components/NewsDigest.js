@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const NewsDigest = (props) => {
-    console.log('props.node', props)
     const { frontmatter, id, internal, fields } = props.node;
     const wordsPerMinute = 500; // Average case.
     let minRead
