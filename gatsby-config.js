@@ -10,6 +10,8 @@ module.exports = {
       resolve: `gatsby-plugin-s3`,
       options: {
         bucketName: "flamingod.com",
+        protocol: "https",
+        hostname: "flamingod.com",
       },
     },
     {
@@ -27,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-143324692-1",
+        trackingId: "UA-151060443-1",
       },
     },
     {
